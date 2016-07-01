@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - links@localhost" uuid="8b78e1fe-f11e-4d3d-b484-c62a0c2ef8b2">
+    <database-info product="MySQL" version="5.7.13-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="links"/>
+      <table id="2" parent="1" name="store"/>
+      <column id="3" parent="2" name="longurl">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1000)</data-type>
+      </column>
+      <column id="4" parent="2" name="tinyurl">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
